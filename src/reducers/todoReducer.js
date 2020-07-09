@@ -78,20 +78,12 @@ const todoReducer = (state = {
         case "CHANGE_STATUS":
             {
                 const index = state.todos.findIndex((todo) => action.payload.id === todo.id);
-                state.todos[index].status = action.payload.status;
-                return state = {
-                    ...state,
-                    todos: state.todos
-                }
+               return state.todos[index].status = action.payload.status;             
             }
         case "UPDATE_TODO_ITEM":
             {
                 const index = state.todos.findIndex((todo) => action.payload.id === todo.id);
-                state.todos[index] = action.payload;
-                return state = {
-                    ...state,
-                    todos: state.todos
-                }
+                return state.todos[index] = action.payload;
             }
     }
     return state;

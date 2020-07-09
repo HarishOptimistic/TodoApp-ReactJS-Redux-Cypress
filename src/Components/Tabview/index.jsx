@@ -4,7 +4,7 @@ import classnames from "classnames";
 
 import TaskList from "../TaskTable";
 
-const Example = (props) => {
+const Tabview = (props) => {
   const [activeTab, setActiveTab] = useState("1");
 
   const toggle = (tab) => {
@@ -60,4 +60,4 @@ const Example = (props) => {
   );
 };
 
-export default Example;
+export default Tabview;
