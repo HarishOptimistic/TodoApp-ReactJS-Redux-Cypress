@@ -30,7 +30,12 @@ const App = () => {
     <>
       <h1 className="app-header">Todo App</h1>
       <div className="add-task-main">
-        <Dashboard total={total} open={open} completed={completed} cancelled={cancelled} />
+        <Dashboard
+          total={total}
+          open={open}
+          completed={completed}
+          cancelled={cancelled}
+        />
         <Button color="danger" onClick={toggle}>
           Add Task
         </Button>
