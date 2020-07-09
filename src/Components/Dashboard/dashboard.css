@@ -1,0 +1,17 @@
+.dashboard {
+ height: 150px;
+ margin-right: 0px;
+ margin-left: 3px;
+}
+
+.dashboard-card {
+ margin: 5px;
+ text-align: center;
+ font-size: larger;
+ margin-bottom: 25px;
+}
+
+.card-body {
+ font-size: 40px;
+ padding-top: 0px;
+}
